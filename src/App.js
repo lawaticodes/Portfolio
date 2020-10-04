@@ -1,6 +1,9 @@
 import { MenuOutlined, MailOutlined } from '@ant-design/icons';
 import React from 'react';
 
+import Menu from './Menu.js';
+import Contact from './Contact.js';
+
 import './App.css';
 
 
@@ -35,11 +38,11 @@ class Portfolio extends React.Component {
     let content;
 
     if (this.state.menuIsOpen) {
-      content = "";
+      content = <Menu/>
     } else if (this.state.contactIsOpen) {
       content = "";
     } else {
-      content = "";
+      content = <Contact/>
     }
 
     return (
