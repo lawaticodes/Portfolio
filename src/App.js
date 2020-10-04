@@ -45,13 +45,13 @@ class Portfolio extends React.Component {
     return (
       <div className="main-body">
         <div className="left-nav">
-          <MenuOutlined className="menu-icon" onClick={this.clickMenu}/>
+          <MenuOutlined className="icon-link" onClick={this.clickMenu}/>
         </div>
         <div className="inner-body">
           {content}
         </div>
         <div className="right-nav">
-          <MailOutlined className="contact-icon" onClick={this.clickContact}/>
+          <MailOutlined className="icon-link" onClick={this.clickContact}/>
         </div>
       </div>
     );
