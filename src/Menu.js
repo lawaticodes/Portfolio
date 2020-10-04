@@ -7,7 +7,16 @@ class Menu extends React.Component {
 	render() {
     return(
       <div className="menu">
-        <p>This is the menu.</p>
+        <div className="menu-header">
+          <p>MENU</p>
+        </div>
+        <div>
+          <p>ABOUT</p>
+          <p>SOFTWARE ENGINEERING EXPERIENCES</p>
+          <p>PROJECTS</p>
+          <p>EDUCATION</p>
+          <p>OTHER EXPERIENCES & EXTRACURRICULAR ACTIVITIES</p>
+        </div>
       </div>
     );
 	};

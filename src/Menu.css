@@ -1,0 +1,11 @@
+.menu {
+  width: 78vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.menu-header {
+  text-decoration: underline
+}

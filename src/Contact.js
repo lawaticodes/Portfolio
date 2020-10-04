@@ -7,7 +7,18 @@ class Contact extends React.Component {
 	render() {
     return(
       <div className="contact">
-        <p>This is the contact form.</p>
+        <div className="contact-header">
+          <p>GET IN TOUCH</p>
+        </div>
+        <div>
+          <p>NAME:</p>
+          <p>MOBILE:</p>
+          <p>EMAIL:</p>
+          <p>MESSAGE:</p>
+        </div>
+        <div>
+          <p>SEND</p>
+        </div>
       </div>
     );
 	};
