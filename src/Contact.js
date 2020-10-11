@@ -1,5 +1,5 @@
 import React from 'react';
-import { Input } from 'antd';
+import { Input, Button } from 'antd';
 
 import './Contact.css';
 
@@ -19,14 +19,14 @@ class Contact extends React.Component {
             <p>MESSAGE:</p>
           </div>
           <div className="inputs">
-            <Input className="personal-info" placeholder="Please enter your full name."/>
-            <Input className="personal-info" placeholder="Please enter your modile number."/>
-            <Input className="personal-info" placeholder="Please enter your email address."/>
-            <Input className="message" placeholder="Please enter a message."/>
+            <Input className="input personal-info" placeholder="Please enter your full name."/>
+            <Input className="input personal-info" placeholder="Please enter your modile number."/>
+            <Input className="input personal-info" placeholder="Please enter your email address."/>
+            <Input className="input message" placeholder="Please enter a message."/>
           </div>
         </div>
         <div>
-          <p>SEND</p>
+          <Button className="send">SEND</Button>
         </div>
       </div>
     );
