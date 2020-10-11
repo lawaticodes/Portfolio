@@ -4,6 +4,8 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  font-weight: bold;
+  font-size: 1.25em;
 }
 
 .menu-header {

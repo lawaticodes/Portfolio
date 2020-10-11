@@ -4,10 +4,13 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  font-weight: bold;
 }
 
 .contact-header {
   text-decoration: underline;
+  font-size: 1.25em;
+  margin-bottom: 6vh;
 }
 
 .contact-content {
@@ -15,6 +18,7 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
+  margin-bottom: 3vh;
 }
 
 .prompts {
@@ -31,6 +35,7 @@
   height: 4.5vh;
   margin-left: 5vw;
   padding-left: 2vw;
+  font-family: Tahoma;
 }
 
 .message {
@@ -38,4 +43,5 @@
   height: 30vh;
   margin-left: 5vw;
   padding-left: 2vw;
+  font-family: Tahoma;
 }
