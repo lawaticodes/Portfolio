@@ -1,5 +1,5 @@
-import { MenuOutlined, MailOutlined } from '@ant-design/icons';
 import React from 'react';
+import { MenuOutlined, MailOutlined } from '@ant-design/icons';
 
 import Menu from './Menu.js';
 import Contact from './Contact.js';
