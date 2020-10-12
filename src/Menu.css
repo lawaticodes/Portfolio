@@ -4,10 +4,18 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  font-family: 'geometrica';
   font-weight: bold;
-  font-size: 1.25em;
+  font-size: 1.5em;
+  letter-spacing: 1px;
 }
 
 .menu-header {
-  text-decoration: underline
+  font-family: 'skam';
+  font-size: 5em;
+  color: yellow;
+}
+
+.text {
+  margin: 0;
 }
