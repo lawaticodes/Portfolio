@@ -36,17 +36,21 @@ class Portfolio extends React.Component {
 
   render() {
     let content;
+    let appBackgroundColor;
 
     if (this.state.menuIsOpen) {
-      content = <Menu/>
+      content = <Menu/>;
+      appBackgroundColor = "black";
     } else if (this.state.contactIsOpen) {
-      content = "";
+      content = <Contact/>;
+      appBackgroundColor = "white";
     } else {
-      content = <Contact/>
+      content = "";
+      appBackgroundColor = "black";
     }
 
     return (
-      <div className="main-body">
+      <div className="main-body" style={{backgroundColor: appBackgroundColor}}>
         <div className="left-nav">
           <MenuOutlined className="icon-link" onClick={this.clickMenu}/>
         </div>
