@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'novar';
-  src: url('fonts/Novar.ttf') format('truetype');
+  font-family: 'skam';
+  src: url('fonts/Skam.otf') format('opentype');
 }
 
 @font-face {
@@ -9,36 +9,36 @@
 }
 
 /* @font-face {
-  font-family: 'skam';
-  src: url('fonts/Skam.otf') format('opentype');
-}
+  font-family: 'novar';
+  src: url('fonts/Novar.ttf') format('truetype');
+} */
 
-@font-face {
+/* @font-face {
   font-family: 'kunt';
   src: url('fonts/Kunt.otf') format('opentype');
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: 'elaris';
   src: url('fonts/Elaris.otf') format('opentype');
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: 'expose';
   src: url('fonts/Expose.otf') format('opentype');
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: 'sfkingston';
   src: url('fonts/SF_Kingston.otf') format('opentype');
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: 'sfkingstonlight';
   src: url('fonts/SF_Kingston_Light.otf') format('opentype');
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: 'funkturm';
   src: url('fonts/Funkturm.woff') format('woff');
 } */
@@ -46,7 +46,7 @@
 .main-body {
   height: 100vh;
   width: 100vw;
-  font-family: 'novar';
+  font-family: 'geometrica';
   color: white;
   display: flex;
   justify-content: center;

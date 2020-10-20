@@ -8,9 +8,8 @@
 }
 
 .contact-header {
-  text-decoration: underline;
-  font-size: 1.25em;
-  margin-bottom: 6vh;
+  font-size: 3em;
+  font-family: 'skam';
 }
 
 .contact-content {
@@ -19,6 +18,7 @@
   justify-content: center;
   flex-direction: row;
   margin-bottom: 3vh;
+  letter-spacing: 2px;
 }
 
 .prompts {
@@ -39,7 +39,6 @@
   height: 4.5vh;
   margin-left: 5vw;
   padding-left: 2vw;
-  font-family: Tahoma;
 }
 
 .message {
@@ -47,13 +46,11 @@
   height: 30vh;
   margin-left: 5vw;
   padding-left: 2vw;
-  font-family: Tahoma;
 }
 
 .send{
   width: 7vw;
   height: 5vh;
-  font-family: Tahoma;
   font-weight: bold;
   font-size: 1em;
 }
