@@ -12,10 +12,11 @@ class Menu extends React.Component {
         </div>
         <div>
           <p>ABOUT</p>
-          <p>SOFTWARE ENGINEERING EXPERIENCES</p>
+          <p>SOFTWARE ENGINEERING WORK EXPERIENCE</p>
           <p>PROJECTS</p>
-          <p>EDUCATION</p>
-          <p>OTHER EXPERIENCES & EXTRACURRICULAR ACTIVITIES</p>
+          <p>SELF STUDY</p>
+          <p>FORMAL EDUCATION</p>
+          <p>OTHER WORK EXPERIENCE & EXTRACURRICULAR ACHIEVEMENTS</p>
         </div>
       </div>
     );
