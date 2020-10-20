@@ -51,6 +51,8 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
+  letter-spacing: 2px;
+  font-weight: bold;
 }
 
 .left-nav {
@@ -67,6 +69,7 @@
   justify-content: center;
   flex-direction: column;
   padding: 5vh;
+  font-size: 1.2em;
 }
 
 .right-nav {

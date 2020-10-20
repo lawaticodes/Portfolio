@@ -4,12 +4,12 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  font-weight: bold;
 }
 
 .contact-header {
   font-size: 3em;
   font-family: 'skam';
+  font-weight: normal;
 }
 
 .contact-content {
@@ -18,7 +18,6 @@
   justify-content: center;
   flex-direction: row;
   margin-bottom: 3vh;
-  letter-spacing: 2px;
 }
 
 .prompts {
