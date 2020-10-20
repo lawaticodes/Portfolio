@@ -36,21 +36,21 @@ class Portfolio extends React.Component {
 
   render() {
     let content;
-    let appBackgroundColor;
+    let appBackground;
 
     if (this.state.menuIsOpen) {
       content = <Menu/>;
-      appBackgroundColor = "black";
+      appBackground = "linear-gradient(135deg, rgba(247,141,229,1) 6%, rgba(223,170,247,1) 41%, rgba(210,159,245,1) 74%)";
     } else if (this.state.contactIsOpen) {
       content = <Contact/>;
-      appBackgroundColor = "white";
+      appBackground = "linear-gradient(135deg, rgba(247,141,229,1) 6%, rgba(223,170,247,1) 41%, rgba(210,159,245,1) 74%)";
     } else {
       content = "";
-      appBackgroundColor = "black";
+      appBackground = "linear-gradient(135deg, rgba(247,141,229,1) 6%, rgba(223,170,247,1) 41%, rgba(210,159,245,1) 74%)";
     }
 
     return (
-      <div className="main-body" style={{backgroundColor: appBackgroundColor}}>
+      <div className="main-body" style={{background: appBackground}}>
         <div className="left-nav">
           <MenuOutlined className="icon-link" onClick={this.clickMenu}/>
         </div>
