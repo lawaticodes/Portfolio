@@ -11,6 +11,7 @@
   font-family: 'skam';
   font-weight: normal;
   letter-spacing: 0px;
+  color:  #e258fa;
 }
 
 .contact-content {
@@ -19,6 +20,7 @@
   justify-content: center;
   flex-direction: row;
   margin-bottom: 3vh;
+  color: white;
 }
 
 .prompts {

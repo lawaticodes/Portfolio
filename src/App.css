@@ -47,7 +47,6 @@
   height: 100vh;
   width: 100vw;
   font-family: 'geometrica';
-  color: white;
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -61,6 +60,7 @@
   justify-content: center;
   padding-top: 6vh;
   font-size: 2em;
+  color: white;
 }
 
 .inner-body {
@@ -70,6 +70,7 @@
   flex-direction: column;
   padding: 5vh;
   font-size: 1.2em;
+  color: black;
 }
 
 .right-nav {
@@ -78,6 +79,7 @@
   justify-content: center;
   padding-top: 6vh;
   font-size: 2em;
+  color: white;
 }
 
 .icon-link {

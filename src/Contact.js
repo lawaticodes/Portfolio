@@ -9,7 +9,7 @@ class Contact extends React.Component {
     return(
       <div className="contact-form">
         <div className="contact-header">
-          <p>GET IN TOUCH</p>
+          <p>CONTACT FORM</p>
         </div>
         <div className="contact-content">
           <div className="prompts">
@@ -26,7 +26,7 @@ class Contact extends React.Component {
           </div>
         </div>
         <div>
-          <Button className="send">SEND</Button>
+          <Button className="send">Get in touch!</Button>
         </div>
       </div>
     );

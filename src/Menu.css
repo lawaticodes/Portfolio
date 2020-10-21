@@ -4,6 +4,7 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  color: white;
 }
 
 .menu-header {
@@ -11,6 +12,7 @@
   font-size: 5em;
   font-weight: normal;
   letter-spacing: 0px;
+  color: #ca58fa;
 }
 
 .text {
