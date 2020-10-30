@@ -9,19 +9,23 @@ class Contact extends React.Component {
     return(
       <div className="contact-form">
         <div className="contact-header">
-          <p>CONTACT FORM</p>
+          <p className="text">CONTACT FORM</p>
         </div>
         <div className="contact-content">
-          <div className="prompts">
+          <div className="prompt">
             <p>NAME:</p>
-            <p>MOBILE:</p>
-            <p>EMAIL:</p>
-            <p>MESSAGE:</p>
-          </div>
-          <div className="inputs">
             <Input className="input personal-info" placeholder="Please enter your full name."/>
+          </div>
+          <div className="prompt">
+            <p>MOBILE:</p>
             <Input className="input personal-info" placeholder="Please enter your modile number."/>
+          </div>
+          <div className="prompt">
+            <p>EMAIL:</p>
             <Input className="input personal-info" placeholder="Please enter your email address."/>
+          </div>
+          <div className="prompt">
+            <p>MESSAGE:</p>
             <Input className="input message" placeholder="Please enter a message."/>
           </div>
         </div>
