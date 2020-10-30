@@ -10,7 +10,7 @@ class Menu extends React.Component {
         <div className="menu-header">
           <p>MENU</p>
         </div>
-        <div>
+        <div className="menu-content">
           <p>ABOUT</p>
           <p>SOFTWARE ENGINEERING WORK EXPERIENCE</p>
           <p>PROJECTS</p>
