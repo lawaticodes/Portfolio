@@ -8,13 +8,10 @@
   src: url('fonts/Geometrica.ttf') format('truetype');
 }
 
-.main-body, .left-nav, .inner-body, .right-nav {
+.main-body, .left-nav, .right-nav {
   display: flex;
   justify-content: center;
-}
-
-.left-nav, .inner-body, .right-nav {
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .left-nav, .right-nav {
@@ -25,16 +22,17 @@
 }
 
 .main-body {
-  flex-direction: row;
   font-family: 'geometrica';
   letter-spacing: 2px;
   width: 100vw;
 }
 
 .inner-body {
-  width: 88vw;
-  font-size: 1.2em;
   color: black;
+  flex-direction: column;
+  font-size: 1.2em;
+  justify-content: center;
+  width: 88vw;
 }
 
 .icon-link {
