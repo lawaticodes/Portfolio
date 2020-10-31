@@ -19,15 +19,32 @@ class Portfolio extends React.Component {
       menuIsOpen: false,
       displayPage: about,
     };
+    this.closeMenu = this.closeMenu.bind(this);
     this.clickMenu = this.clickMenu.bind(this);
+    this.clickAbout = this.clickAbout.bind(this);
+    this.clickWorkExperience = this.clickWorkExperience.bind(this);
+  };
+
+  closeMenu() {
+    this.setState({menuIsOpen: false});
   };
 
   clickMenu() {
     if (this.state.menuIsOpen) {
-      this.setState({menuIsOpen: false});
+      this.closeMenu();
     } else {
       this.setState({menuIsOpen: true});
     }
+  };
+
+  clickAbout() {
+    this.setState({displayPage: about});
+    this.closeMenu();
+  };
+
+  clickWorkExperience() {
+    this.setState({displayPage: workExperience});
+    this.closeMenu();
   };
 
   render() {
@@ -35,7 +52,7 @@ class Portfolio extends React.Component {
     let appBackground;
 
     if (this.state.menuIsOpen) {
-      content = <Menu/>;
+      content = <Menu displayPage={this.state.displayPage} clickAbout={this.clickAbout} clickWorkExperience={this.clickWorkExperience}/>;
       appBackground = "linear-gradient(135deg, rgba(247,141,229,1) 5%, rgba(223,170,247,1) 50%, rgba(210,159,245,1) 80%)";
     } else {
       if (this.state.displayPage === workExperience) {

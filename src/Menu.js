@@ -11,8 +11,8 @@ class Menu extends React.Component {
           <p className="title">MENU</p>
         </div>
         <div className="menu-content">
-          <p>ABOUT</p>
-          <p>SOFTWARE ENGINEERING WORK EXPERIENCE</p>
+          <p onClick={this.props.clickAbout}>ABOUT</p>
+          <p onClick={this.props.clickWorkExperience}>SOFTWARE ENGINEERING WORK EXPERIENCE</p>
           <p>PROJECTS</p>
           <p>SELF STUDY</p>
           <p>FORMAL EDUCATION</p>
