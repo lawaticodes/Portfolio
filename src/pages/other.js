@@ -16,7 +16,7 @@ class Other extends React.Component {
     return(
       <div>
         <div>
-          <p>OTHER WORK EXPERIENCE & EXTRACURRICULAR ACHIEVEMENTS</p>
+          <p>OTHER WORK EXPERIENCE AND EXTRACURRICULAR ACHIEVEMENTS</p>
         </div>
         <div>
           <p>{placeholderText}</p>

@@ -1,21 +1,21 @@
 import React from 'react';
 import { MenuOutlined } from '@ant-design/icons';
 
-import About from './pages/about.js';
 import Education from './pages/education.js';
 import Menu from './navigation/menu.js';
 import Other from './pages/other.js';
 import Projects from './pages/projects.js';
 import WorkExperience from './pages/work_experience.js';
+import About from './pages/about.js';
 
 import './App.css';
 
 
-const about = "About";
 const workExperience = "Work Experience";
 const education = "Education";
 const projects = "Projects";
 const other = "Other";
+const about = "About";
 
 
 class Portfolio extends React.Component {
@@ -27,11 +27,11 @@ class Portfolio extends React.Component {
     };
     this.closeMenu = this.closeMenu.bind(this);
     this.clickMenu = this.clickMenu.bind(this);
-    this.clickAbout = this.clickAbout.bind(this);
     this.clickWorkExperience = this.clickWorkExperience.bind(this);
     this.clickEducation = this.clickEducation.bind(this);
     this.clickProjects = this.clickProjects.bind(this);
     this.clickOther = this.clickOther.bind(this);
+    this.clickAbout = this.clickAbout.bind(this);
   };
 
   closeMenu() {
@@ -44,11 +44,6 @@ class Portfolio extends React.Component {
     } else {
       this.setState({menuIsOpen: true});
     }
-  };
-
-  clickAbout() {
-    this.setState({displayPage: about});
-    this.closeMenu();
   };
 
   clickWorkExperience() {
@@ -68,6 +63,11 @@ class Portfolio extends React.Component {
 
   clickOther() {
     this.setState({displayPage: other});
+    this.closeMenu();
+  };
+
+  clickAbout() {
+    this.setState({displayPage: about});
     this.closeMenu();
   };
 
