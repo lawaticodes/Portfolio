@@ -15,7 +15,7 @@ class Menu extends React.Component {
           <p className="icon-link" onClick={this.props.clickWorkExperience}>SOFTWARE ENGINEERING WORK EXPERIENCE</p>
           <p className="icon-link" onClick={this.props.clickEducation}>FORMAL EDUCATION</p>
           <p className="icon-link" onClick={this.props.clickProjects}>PERSONAL PROJECTS AND SELF STUDY</p>
-          <p>OTHER WORK EXPERIENCE & EXTRACURRICULAR ACHIEVEMENTS</p>
+          <p className="icon-link" onClick={this.props.clickOther}>OTHER WORK EXPERIENCE & EXTRACURRICULAR ACHIEVEMENTS</p>
         </div>
       </div>
     );

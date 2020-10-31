@@ -4,6 +4,7 @@ import { MenuOutlined } from '@ant-design/icons';
 import About from './pages/about.js';
 import Education from './pages/education.js';
 import Menu from './navigation/menu.js';
+import Other from './pages/other.js';
 import Projects from './pages/projects.js';
 import WorkExperience from './pages/work_experience.js';
 
@@ -14,6 +15,7 @@ const about = "About";
 const workExperience = "Work Experience";
 const education = "Education";
 const projects = "Projects";
+const other = "Other";
 
 
 class Portfolio extends React.Component {
@@ -29,6 +31,7 @@ class Portfolio extends React.Component {
     this.clickWorkExperience = this.clickWorkExperience.bind(this);
     this.clickEducation = this.clickEducation.bind(this);
     this.clickProjects = this.clickProjects.bind(this);
+    this.clickOther = this.clickOther.bind(this);
   };
 
   closeMenu() {
@@ -63,12 +66,17 @@ class Portfolio extends React.Component {
     this.closeMenu();
   };
 
+  clickOther() {
+    this.setState({displayPage: other});
+    this.closeMenu();
+  };
+
   render() {
     let content;
     let appBackground;
 
     if (this.state.menuIsOpen) {
-      content = <Menu displayPage={this.state.displayPage} clickAbout={this.clickAbout} clickWorkExperience={this.clickWorkExperience} clickEducation={this.clickEducation} clickProjects={this.clickProjects}/>;
+      content = <Menu displayPage={this.state.displayPage} clickAbout={this.clickAbout} clickWorkExperience={this.clickWorkExperience} clickEducation={this.clickEducation} clickProjects={this.clickProjects} clickOther={this.clickOther}/>;
       appBackground = "linear-gradient(135deg, rgba(247,141,229,1) 5%, rgba(223,170,247,1) 50%, rgba(210,159,245,1) 80%)";
     } else {
       if (this.state.displayPage === workExperience) {
@@ -78,6 +86,8 @@ class Portfolio extends React.Component {
         content = <Education/>;
       } else if (this.state.displayPage === projects) {
         content = <Projects/>;
+      } else if (this.state.displayPage === other) {
+        content = <Other/>
       } else {
         content = <About/>;
         appBackground = "linear-gradient(135deg, rgba(247,141,229,1) 6%, rgba(223,170,247,1) 41%, rgba(210,159,245,1) 74%)";

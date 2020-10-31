@@ -3,7 +3,7 @@ import React from 'react';
 // import './work_experience.css';
 
 
-class Projects extends React.Component {
+class Other extends React.Component {
 	render() {
     let placeholderText = `Lorem ipsum dolor sit amet, consectetur adipiscing
       elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -16,7 +16,7 @@ class Projects extends React.Component {
     return(
       <div>
         <div>
-          <p>PERSONAL PROJECTS AND SELF STUDY</p>
+          <p>OTHER WORK EXPERIENCE & EXTRACURRICULAR ACHIEVEMENTS</p>
         </div>
         <div>
           <p>{placeholderText}</p>
@@ -26,4 +26,4 @@ class Projects extends React.Component {
 	};
 };
 
-export default Projects;
+export default Other;
