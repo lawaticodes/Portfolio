@@ -1,7 +1,7 @@
 import React from 'react';
 import { MenuOutlined } from '@ant-design/icons';
 
-import Menu from './Menu.js';
+import Menu from './menu.js';
 
 import './App.css';
 
