@@ -22,6 +22,7 @@ class Portfolio extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      locked: true,
       menuIsOpen: false,
       displayPage: about,
     };
@@ -97,18 +98,24 @@ class Portfolio extends React.Component {
       }
     }
 
-    return (
-      <div className="main-body" style={{background: appBackground}}>
-        <div className="left-nav">
-          <MenuOutlined className="icon-link" onClick={this.clickMenu}/>
+    if (this.state.locked) {
+      return (
+        <p>HELLO WORLD</p>
+      );
+    } else {
+      return (
+        <div className="main-body" style={{background: appBackground}}>
+          <div className="left-nav">
+            <MenuOutlined className="icon-link" onClick={this.clickMenu}/>
+          </div>
+          <div className="inner-body">
+            {content}
+          </div>
+          <div className="right-nav">
+          </div>
         </div>
-        <div className="inner-body">
-          {content}
-        </div>
-        <div className="right-nav">
-        </div>
-      </div>
-    );
+      );
+    }
   };
 };
 
