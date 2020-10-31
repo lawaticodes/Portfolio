@@ -2,6 +2,7 @@ import React from 'react';
 import { MenuOutlined } from '@ant-design/icons';
 
 import Education from './pages/education.js';
+import Gateway from './pages/gateway.js';
 import Menu from './navigation/menu.js';
 import Other from './pages/other.js';
 import Projects from './pages/projects.js';
@@ -100,7 +101,7 @@ class Portfolio extends React.Component {
 
     if (this.state.locked) {
       return (
-        <p>HELLO WORLD</p>
+        <Gateway/>
       );
     } else {
       return (
