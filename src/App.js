@@ -3,8 +3,13 @@ import { MenuOutlined } from '@ant-design/icons';
 
 import About from './about.js';
 import Menu from './menu.js';
+import WorkExperience from './work_experience.js';
 
 import './App.css';
+
+
+const about = "About";
+const workExperience = "Work Experience";
 
 
 class Portfolio extends React.Component {
@@ -12,6 +17,7 @@ class Portfolio extends React.Component {
     super(props);
     this.state = {
       menuIsOpen: false,
+      displayPage: about,
     };
     this.clickMenu = this.clickMenu.bind(this);
   };
@@ -32,8 +38,13 @@ class Portfolio extends React.Component {
       content = <Menu/>;
       appBackground = "linear-gradient(135deg, rgba(247,141,229,1) 5%, rgba(223,170,247,1) 50%, rgba(210,159,245,1) 80%)";
     } else {
-      content = <About/>;
-      appBackground = "linear-gradient(135deg, rgba(247,141,229,1) 6%, rgba(223,170,247,1) 41%, rgba(210,159,245,1) 74%)";
+      if (this.state.displayPage === workExperience) {
+        content = <WorkExperience/>;
+        appBackground = "linear-gradient(135deg, rgba(247,141,229,1) 8%, rgba(223,170,247,1) 52%, rgba(210,159,245,1) 91%)";
+      } else {
+        content = <About/>;
+        appBackground = "linear-gradient(135deg, rgba(247,141,229,1) 6%, rgba(223,170,247,1) 41%, rgba(210,159,245,1) 74%)";
+      }
     }
 
     return (
@@ -52,5 +63,3 @@ class Portfolio extends React.Component {
 };
 
 export default Portfolio;
-
-// "linear-gradient(135deg, rgba(247,141,229,1) 8%, rgba(223,170,247,1) 52%, rgba(210,159,245,1) 91%)"
