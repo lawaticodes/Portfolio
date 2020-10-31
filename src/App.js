@@ -1,8 +1,7 @@
 import React from 'react';
-import { MenuOutlined, MailOutlined } from '@ant-design/icons';
+import { MenuOutlined } from '@ant-design/icons';
 
 import Menu from './Menu.js';
-import Contact from './Contact.js';
 
 import './App.css';
 
@@ -12,10 +11,8 @@ class Portfolio extends React.Component {
     super(props);
     this.state = {
       menuIsOpen: false,
-      contactIsOpen: false,
     };
     this.clickMenu = this.clickMenu.bind(this);
-    this.clickContact = this.clickContact.bind(this);
   };
 
   clickMenu() {
@@ -26,14 +23,6 @@ class Portfolio extends React.Component {
     }
   };
 
-  clickContact() {
-    if (this.state.contactIsOpen) {
-      this.setState({contactIsOpen: false});
-    } else {
-      this.setState({contactIsOpen: true});
-    }
-  };
-
   render() {
     let content;
     let appBackground;
@@ -41,9 +30,6 @@ class Portfolio extends React.Component {
     if (this.state.menuIsOpen) {
       content = <Menu/>;
       appBackground = "linear-gradient(135deg, rgba(247,141,229,1) 5%, rgba(223,170,247,1) 50%, rgba(210,159,245,1) 80%)";
-    } else if (this.state.contactIsOpen) {
-      content = <Contact/>;
-      appBackground = "linear-gradient(135deg, rgba(247,141,229,1) 8%, rgba(223,170,247,1) 52%, rgba(210,159,245,1) 91%)";
     } else {
       content = "";
       appBackground = "linear-gradient(135deg, rgba(247,141,229,1) 6%, rgba(223,170,247,1) 41%, rgba(210,159,245,1) 74%)";
@@ -58,7 +44,6 @@ class Portfolio extends React.Component {
           {content}
         </div>
         <div className="right-nav">
-          <MailOutlined className="icon-link" onClick={this.clickContact}/>
         </div>
       </div>
     );
@@ -66,3 +51,5 @@ class Portfolio extends React.Component {
 };
 
 export default Portfolio;
+
+// "linear-gradient(135deg, rgba(247,141,229,1) 8%, rgba(223,170,247,1) 52%, rgba(210,159,245,1) 91%)"
