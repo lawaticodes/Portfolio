@@ -6,7 +6,7 @@ import './menu.css';
 class Menu extends React.Component {
 	render() {
     return(
-      <div className="menu">
+      <div>
         <div className="menu-header">
           <p className="title">MENU</p>
         </div>
