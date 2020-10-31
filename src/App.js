@@ -1,9 +1,9 @@
 import React from 'react';
 import { MenuOutlined } from '@ant-design/icons';
 
-import About from './about.js';
-import Menu from './menu.js';
-import WorkExperience from './work_experience.js';
+import About from './pages/about.js';
+import Menu from './navigation/menu.js';
+import WorkExperience from './pages/work_experience.js';
 
 import './App.css';
 
