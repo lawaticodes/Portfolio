@@ -1,5 +1,12 @@
 .about-header {
+  color: white;
   font-family: 'skam';
-  font-size: 5em;
-  letter-spacing: 0px;
+  font-size: 3.5em;
+}
+
+.description {
+  margin: 0 auto;
+  outline-color: #ca58fa;
+  outline-style: solid;
+  width: 65vw;
 }
