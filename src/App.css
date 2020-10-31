@@ -42,3 +42,8 @@
   cursor: pointer;
   outline: 0;
 }
+
+.title {
+  margin-bottom: 7vh;
+  margin-top: 20vh;
+}
