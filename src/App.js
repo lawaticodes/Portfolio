@@ -84,10 +84,13 @@ class Portfolio extends React.Component {
         appBackground = "linear-gradient(135deg, rgba(247,141,229,1) 8%, rgba(223,170,247,1) 52%, rgba(210,159,245,1) 91%)";
       } else if (this.state.displayPage === education) {
         content = <Education/>;
+        appBackground = "linear-gradient(135deg, rgba(247,141,229,1) 11%, rgba(223,170,247,1) 36%, rgba(210,159,245,1) 88%)";
       } else if (this.state.displayPage === projects) {
         content = <Projects/>;
+        appBackground = "linear-gradient(135deg, rgba(247,141,229,1) 13%, rgba(223,170,247,1) 67%, rgba(210,159,245,1) 85%)";
       } else if (this.state.displayPage === other) {
         content = <Other/>
+        appBackground = "linear-gradient(135deg, rgba(247,141,229,1) 9%, rgba(223,170,247,1) 74%, rgba(210,159,245,1) 93%)";
       } else {
         content = <About/>;
         appBackground = "linear-gradient(135deg, rgba(247,141,229,1) 6%, rgba(223,170,247,1) 41%, rgba(210,159,245,1) 74%)";
