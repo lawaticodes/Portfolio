@@ -22,8 +22,12 @@
   letter-spacing: 2px;
   margin: 0 auto;
   padding: 5px;
-  text-align: center;
-  width: 40vw;
+  padding-left: 20px;
+  width: 39vw;
+}
+
+#password:focus {
+  outline: none;
 }
 
 .submit {
