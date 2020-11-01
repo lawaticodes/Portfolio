@@ -15,25 +15,29 @@
 }
 
 #password {
-  border-color: black;
-  border-style: solid;
+  border: none;
   font-family: 'geometrica';
   font-size: 1.2em;
   font-weight: bold;
+  letter-spacing: 2px;
   margin: 0 auto;
   padding: 5px;
   text-align: center;
-  width: 35vw;
+  width: 40vw;
 }
 
 .submit {
   background-color: #ca58fa;
+  border: none;
+  color: white;
   cursor: pointer;
   font-family: 'geometrica';
   font-size: 1.2em;
   font-weight: bold;
+  letter-spacing: 2px;
   margin: 0 auto;
-  margin-top: 3vh;
+  margin-top: 4vh;
   outline: 0;
+  padding: 4px;
   width: 8vw;
 }

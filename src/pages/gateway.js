@@ -9,7 +9,7 @@ class Gateway extends React.Component {
     return(
       <div className="gateway">
         <h2 className="gateway-title">THIS WEBSITE IS PASSWORD PROTECTED</h2>
-        <Input id="password" placeholder="Please enter a valid password to access the content"/>
+        <Input id="password" placeholder="Please enter a valid password to access the content."/>
         <Button className="submit">Submit</Button>
       </div>
     );
