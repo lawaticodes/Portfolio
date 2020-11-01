@@ -1,0 +1,7 @@
+.gateway {
+  background-color: #fec8fe;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+}
