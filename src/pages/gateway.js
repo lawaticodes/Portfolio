@@ -1,4 +1,5 @@
 import React from 'react';
+import { Input, Button } from 'antd';
 
 import './gateway.css';
 
@@ -7,12 +8,9 @@ class Gateway extends React.Component {
 	render() {
     return(
       <div className="gateway">
-        <div>
-          <p>THIS WEBSITE IS PASSWORD PROTECTED</p>
-        </div>
-        <div>
-          <p>Please enter a valid password to access the content.</p>
-        </div>
+        <h2>THIS WEBSITE IS PASSWORD PROTECTED</h2>
+        <Input id="password" placeholder="Please enter a valid password to access the content"/>
+        <Button className="submit">Submit</Button>
       </div>
     );
 	};

@@ -1,7 +1,25 @@
 .gateway {
-  background-color: #fec8fe;
+  background-color: #eba8e6;
   display: flex;
+  flex-direction: column;
+  font-family: 'geometrica';
+  font-weight: bold;
   height: 100vh;
   justify-content: center;
-  flex-direction: column;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+#password {
+  font-family: 'geometrica';
+  font-weight: bold;
+  margin: 0 auto;
+  width: 35vw;
+}
+
+.submit {
+  font-family: 'geometrica';
+  font-weight: bold;
+  margin: 0 auto;
+  width: 8vw;
 }
