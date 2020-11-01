@@ -10,16 +10,30 @@
   text-align: center;
 }
 
+.gateway-title {
+  margin-bottom: 5vh;
+}
+
 #password {
+  border-color: black;
+  border-style: solid;
   font-family: 'geometrica';
+  font-size: 1.2em;
   font-weight: bold;
   margin: 0 auto;
+  padding: 5px;
+  text-align: center;
   width: 35vw;
 }
 
 .submit {
+  background-color: #ca58fa;
+  cursor: pointer;
   font-family: 'geometrica';
+  font-size: 1.2em;
   font-weight: bold;
   margin: 0 auto;
+  margin-top: 3vh;
+  outline: 0;
   width: 8vw;
 }
