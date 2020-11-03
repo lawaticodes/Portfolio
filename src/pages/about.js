@@ -15,7 +15,7 @@ class About extends React.Component {
 
     return(
       <div>
-        <div className="about-header">
+        <div className="header">
           <p>FULL NAME</p>
         </div>
         <div>

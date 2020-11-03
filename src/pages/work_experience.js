@@ -15,11 +15,16 @@ class WorkExperience extends React.Component {
 
     return(
       <div>
-        <div>
-          <p>COMPANY NAME</p>
+        <div className="header">
+          <p>SOFTWARE ENGINEERING WORK EXPERIENCE</p>
         </div>
         <div>
-          <p>{placeholderText}</p>
+          <div>
+            <p>COMPANY NAME</p>
+          </div>
+          <div>
+            <p>{placeholderText}</p>
+          </div>
         </div>
       </div>
     );
