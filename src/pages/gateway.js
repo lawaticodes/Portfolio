@@ -11,9 +11,10 @@ class Gateway extends React.Component {
   };
 
   submit() {
+    const validPasswords = ["TEST_PASSWORD"];
     let password = document.getElementById("password").value;
 
-    if (password) {
+    if (validPasswords.includes(password)) {
       this.props.unlock();
     } else {
       let todo;
