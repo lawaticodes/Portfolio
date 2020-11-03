@@ -2,16 +2,27 @@
   color: white;
   font-family: 'skam';
   font-size: 3.5em;
+  margin-top: 20vh;
 }
 
 .description {
-  border-radius: 25px;
+  border-radius: 20px;
   border: 3px solid #ca58fa;
   margin: 0 auto;
+  margin-top: 17vh;
   padding-bottom: 10px;
   padding-left: 3vw;
   padding-right: 3vw;
   padding-top: 10px;
   text-align: left;
   width: 55vw;
+}
+
+.contact-details {
+  margin-top: 17vh;
+}
+
+.links {
+  margin-bottom: 30vh;
+  margin-top: 20vh;
 }
