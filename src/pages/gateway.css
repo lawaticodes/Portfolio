@@ -5,13 +5,15 @@
   font-family: 'geometrica';
   font-weight: bold;
   height: 100vh;
-  justify-content: center;
   letter-spacing: 2px;
   text-align: center;
 }
 
-.gateway-title {
-  margin-bottom: 5vh;
+.prompt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 35vh;
 }
 
 #password {
@@ -30,6 +32,11 @@
   outline: none;
 }
 
+.error {
+  color: red;
+  margin-top: 5vh;
+}
+
 .submit {
   background-color: #ca58fa;
   border: none;
@@ -40,7 +47,7 @@
   font-weight: bold;
   letter-spacing: 2px;
   margin: 0 auto;
-  margin-top: 4vh;
+  margin-top: 5vh;
   outline: 0;
   padding: 4px;
   width: 8vw;
