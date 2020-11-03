@@ -27,6 +27,7 @@ class Portfolio extends React.Component {
       menuIsOpen: false,
       displayPage: about,
     };
+    this.unlock = this.unlock.bind(this);
     this.closeMenu = this.closeMenu.bind(this);
     this.clickMenu = this.clickMenu.bind(this);
     this.clickWorkExperience = this.clickWorkExperience.bind(this);
@@ -34,6 +35,10 @@ class Portfolio extends React.Component {
     this.clickProjects = this.clickProjects.bind(this);
     this.clickOther = this.clickOther.bind(this);
     this.clickAbout = this.clickAbout.bind(this);
+  };
+
+  unlock() {
+    this.setState({locked: false});
   };
 
   closeMenu() {
@@ -101,7 +106,7 @@ class Portfolio extends React.Component {
 
     if (this.state.locked) {
       return (
-        <Gateway/>
+        <Gateway unlock={this.unlock}/>
       );
     } else {
       return (

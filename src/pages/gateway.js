@@ -5,12 +5,27 @@ import './gateway.css';
 
 
 class Gateway extends React.Component {
+  constructor(props) {
+    super(props);
+    this.submit = this.submit.bind(this);
+  };
+
+  submit() {
+    let password = document.getElementById("password").value;
+
+    if (password) {
+      this.props.unlock();
+    } else {
+      let todo;
+    }
+  };
+
 	render() {
     return(
       <div className="gateway">
         <h2 className="gateway-title">THIS WEBSITE IS PASSWORD PROTECTED.</h2>
         <Input id="password" placeholder="Please enter a valid password to access the content."/>
-        <Button className="submit">Submit</Button>
+        <Button className="submit" onClick={this.submit}>Submit</Button>
       </div>
     );
 	};
