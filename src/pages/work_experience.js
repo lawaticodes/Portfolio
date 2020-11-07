@@ -27,6 +27,8 @@ class WorkExperience extends React.Component {
             <h3>FRAMEWORKS</h3>
             <p>Django</p>
           </div>
+        </div>
+        <div className="listings">
           <div className="listing">
             <h3>DATABASES</h3>
             <p>PostgreSQL</p>
