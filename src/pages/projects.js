@@ -27,7 +27,12 @@ class Projects extends React.Component {
               <p>Jan 19 - Dec 19</p>
             </div>
           </div>
+          <p>Languages: Python</p>
+          <p>Frameworks: Django</p>
+          <p>Aim: The aim of this project was to consolidate my Python skills.</p>
           <p>Description: {placeholderText}</p>
+          <p>Repository link: linkedin.com/in/fullname</p>
+          <p>Demo link: linkedin.com/in/fullname</p>
         </div>
         <div className="project last-project">
           <div>
@@ -38,7 +43,12 @@ class Projects extends React.Component {
               <p>Jan 19 - Dec 19</p>
             </div>
           </div>
+          <p>Languages: Python</p>
+          <p>Frameworks: Django</p>
+          <p>Aim: The aim of this project was to consolidate my Python skills.</p>
           <p>Description: {placeholderText}</p>
+          <p>Repository link: linkedin.com/in/fullname</p>
+          <p>Demo link: linkedin.com/in/fullname</p>
         </div>
       </div>
     );
