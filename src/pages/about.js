@@ -20,7 +20,7 @@ class About extends React.Component {
         </div>
         <div>
           <div className="description">
-            <h3>ABOUT</h3>
+            <h3>ABOUT ME</h3>
             <p>{placeholderText}</p>
           </div>
         </div>
