@@ -10,17 +10,18 @@ class Education extends React.Component {
         <div className="header">
           <p>FORMAL EDUCATION</p>
         </div>
-        <div className="degree">
-          <h3>UNDERGRADUATE DEGREE</h3>
-          <p>BA Philosophy</p>
-        </div>
-        <div className="a-levels">
-          <h3>A-LEVELS</h3>
-          <p>Maths</p>
-        </div>
-        <div className="gcses">
-          <h3>GCSES</h3>
-          <p>Maths</p>
+        <div className="qualification">
+          <div>
+            <div className="institution">
+              <p>UNDERGRADUATE DEGREE</p>
+            </div>
+            <div className="date">
+              <p>Jan 19 - Dec 19</p>
+            </div>
+          </div>
+          <div className="qualifications">
+            <p>BA PHILOSOPHY</p>
+          </div>
         </div>
       </div>
     );

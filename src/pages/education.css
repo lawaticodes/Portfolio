@@ -3,15 +3,23 @@
   width: 60vw;
 }
 
-.degree{
+.qualification {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* margin-bottom: 30vh; */
   margin-top: 20vh;
+  width: 40vw;
 }
 
-.a-levels {
-  margin-top: 20vh;
+.institution {
+  float: left;
 }
 
-.gcses {
-  margin-bottom: 30vh;
-  margin-top: 20vh;
+.date {
+  float: right;
+}
+
+.qualifications {
+  text-align: left;
 }
