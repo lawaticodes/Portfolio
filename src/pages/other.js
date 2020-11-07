@@ -29,7 +29,7 @@ class Other extends React.Component {
           </div>
           <p>{placeholderText}</p>
         </div>
-        <div className="experience">
+        <div className="experience last-experience">
           <div>
             <div className="company-name">
               <p>COMPANY NAME</p>

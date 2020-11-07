@@ -1,6 +1,6 @@
 import React from 'react';
 
-// import './work_experience.css';
+import './projects.css';
 
 
 class Projects extends React.Component {
@@ -14,12 +14,20 @@ class Projects extends React.Component {
        culpa qui officia deserunt mollit anim id est laborum.`;
 
     return(
-      <div>
-        <div>
+      <div className="projects">
+        <div className="header">
           <p>PERSONAL PROJECTS AND SELF STUDY</p>
         </div>
-        <div>
-          <p>{placeholderText}</p>
+        <div className="experience">
+          <div>
+            <div className="company-name">
+              <p>COMPANY NAME</p>
+            </div>
+            <div className="date">
+              <p>Jan 19 - Dec 19</p>
+            </div>
+          </div>
+          <p>Description: {placeholderText}</p>
         </div>
       </div>
     );
