@@ -19,12 +19,23 @@ class WorkExperience extends React.Component {
           <p>SOFTWARE ENGINEERING WORK EXPERIENCE</p>
         </div>
         <div>
-          <div>
-            <p>COMPANY NAME</p>
+          <div className="languages">
+            <p>Python</p>
           </div>
-          <div>
-            <p>{placeholderText}</p>
+          <div className="frameworks">
+            <p>Django</p>
           </div>
+          <div className="databases">
+            <p>PostgreSQL</p>
+          </div>
+          <div className="libraries">
+            <p>Pandas</p>
+          </div>
+        </div>
+        <div>
+          <p>COMPANY NAME</p>
+          <p>Jan 19 - Dec 19</p>
+          <p>{placeholderText}</p>
         </div>
       </div>
     );
