@@ -16,7 +16,7 @@ class Projects extends React.Component {
     return(
       <div className="projects">
         <div className="header">
-          <p>PERSONAL PROJECTS AND SELF STUDY</p>
+          <p>PERSONAL PROJECTS</p>
         </div>
         <div className="project">
           <div>
@@ -34,7 +34,7 @@ class Projects extends React.Component {
           <p>Repository link: linkedin.com/in/fullname</p>
           <p>Demo link: linkedin.com/in/fullname</p>
         </div>
-        <div className="project last-project">
+        <div className="project">
           <div>
             <div className="project-name">
               <p>PROJECT NAME</p>
@@ -49,6 +49,17 @@ class Projects extends React.Component {
           <p>Description: {placeholderText}</p>
           <p>Repository link: linkedin.com/in/fullname</p>
           <p>Demo link: linkedin.com/in/fullname</p>
+        </div>
+        <div className="header">
+          <p>SELF STUDY</p>
+        </div>
+        <div className="project">
+          <p>Activity</p>
+          <p>{placeholderText}</p>
+        </div>
+        <div className="project last-project">
+          <p>Activity</p>
+          <p>{placeholderText}</p>
         </div>
       </div>
     );
