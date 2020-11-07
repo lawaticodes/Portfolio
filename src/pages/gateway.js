@@ -11,6 +11,7 @@ class Gateway extends React.Component {
       invalidPassword: false,
     };
     this.submit = this.submit.bind(this);
+    this.clearError = this.clearError.bind(this);
   };
 
   submit() {
@@ -23,6 +24,10 @@ class Gateway extends React.Component {
     } else {
       this.setState({invalidPassword: true});
     }
+  };
+
+  clearError() {
+    this.setState({invalidPassword: false});
   };
 
 	render() {
@@ -38,7 +43,7 @@ class Gateway extends React.Component {
       <div className="gateway">
         <div className="prompt">
           <h2>THIS WEBSITE IS ACCESS RESTRICTED.</h2>
-          <Input id="password" placeholder="Please enter a valid code to access the content."/>
+          <Input id="password" placeholder="Please enter a valid code to access the content." onClick={this.clearError}/>
           <Button className="submit" onClick={this.submit}>Submit</Button>
         </div>
         <div className="error">
