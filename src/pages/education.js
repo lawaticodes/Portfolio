@@ -1,25 +1,26 @@
 import React from 'react';
 
-// import './work_experience.css';
+import './education.css';
 
 
 class Education extends React.Component {
 	render() {
-    let placeholderText = `Lorem ipsum dolor sit amet, consectetur adipiscing
-      elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-       ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-       reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-       pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-       culpa qui officia deserunt mollit anim id est laborum.`;
-
     return(
-      <div>
-        <div>
+      <div className="education">
+        <div className="header">
           <p>FORMAL EDUCATION</p>
         </div>
-        <div>
-          <p>{placeholderText}</p>
+        <div className="degree">
+          <h3>UNDERGRADUATE DEGREE</h3>
+          <p>BA Philosophy</p>
+        </div>
+        <div className="a-levels">
+          <h3>A-LEVELS</h3>
+          <p>Maths</p>
+        </div>
+        <div className="gcses">
+          <h3>GCSES</h3>
+          <p>Maths</p>
         </div>
       </div>
     );
