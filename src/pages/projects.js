@@ -18,10 +18,21 @@ class Projects extends React.Component {
         <div className="header">
           <p>PERSONAL PROJECTS AND SELF STUDY</p>
         </div>
-        <div className="experience">
+        <div className="project">
           <div>
-            <div className="company-name">
-              <p>COMPANY NAME</p>
+            <div className="project-name">
+              <p>PROJECT NAME</p>
+            </div>
+            <div className="date">
+              <p>Jan 19 - Dec 19</p>
+            </div>
+          </div>
+          <p>Description: {placeholderText}</p>
+        </div>
+        <div className="project last-project">
+          <div>
+            <div className="project-name">
+              <p>PROJECT NAME</p>
             </div>
             <div className="date">
               <p>Jan 19 - Dec 19</p>
