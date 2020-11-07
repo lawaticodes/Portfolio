@@ -37,8 +37,8 @@ class Gateway extends React.Component {
     return(
       <div className="gateway">
         <div className="prompt">
-          <h2>THIS WEBSITE IS PASSWORD PROTECTED.</h2>
-          <Input id="password" placeholder="Please enter a valid password to access the content."/>
+          <h2>THIS WEBSITE IS ACCESS RESTRICTED.</h2>
+          <Input id="password" placeholder="Please enter a valid code to access the content."/>
           <Button className="submit" onClick={this.submit}>Submit</Button>
         </div>
         <div className="error">
