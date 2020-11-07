@@ -1,3 +1,8 @@
+.work-experience {
+  margin: 0 auto;
+  width: 60vw;
+}
+
 .listings {
   display: flex;
   flex-direction: row;

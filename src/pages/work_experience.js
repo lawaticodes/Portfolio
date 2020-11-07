@@ -14,7 +14,7 @@ class WorkExperience extends React.Component {
        culpa qui officia deserunt mollit anim id est laborum.`;
 
     return(
-      <div>
+      <div className="work-experience">
         <div className="header">
           <p>SOFTWARE ENGINEERING WORK EXPERIENCE</p>
         </div>
@@ -35,6 +35,17 @@ class WorkExperience extends React.Component {
             <h3>LIBRARIES</h3>
             <p>Pandas</p>
           </div>
+        </div>
+        <div className="experience">
+          <div>
+            <div className="company-name">
+              <p>COMPANY NAME</p>
+            </div>
+            <div className="date">
+              <p>Jan 19 - Dec 19</p>
+            </div>
+          </div>
+          <p>{placeholderText}</p>
         </div>
         <div className="experience">
           <div>
