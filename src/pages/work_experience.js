@@ -18,23 +18,33 @@ class WorkExperience extends React.Component {
         <div className="header">
           <p>SOFTWARE ENGINEERING WORK EXPERIENCE</p>
         </div>
-        <div>
-          <div className="languages">
+        <div className="listings">
+          <div className="listing">
+            <h3>LANGUAGES</h3>
             <p>Python</p>
           </div>
-          <div className="frameworks">
+          <div className="listing">
+            <h3>FRAMEWORKS</h3>
             <p>Django</p>
           </div>
-          <div className="databases">
+          <div className="listing">
+            <h3>DATABASES</h3>
             <p>PostgreSQL</p>
           </div>
-          <div className="libraries">
+          <div className="listing">
+            <h3>LIBRARIES</h3>
             <p>Pandas</p>
           </div>
         </div>
-        <div>
-          <p>COMPANY NAME</p>
-          <p>Jan 19 - Dec 19</p>
+        <div className="experience">
+          <div>
+            <div className="company-name">
+              <p>COMPANY NAME</p>
+            </div>
+            <div className="date">
+              <p>Jan 19 - Dec 19</p>
+            </div>
+          </div>
           <p>{placeholderText}</p>
         </div>
       </div>

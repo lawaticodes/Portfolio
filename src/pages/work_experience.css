@@ -1,0 +1,26 @@
+.listings {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20vh;
+}
+
+.listing {
+  width: 22vw;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30vh;
+  margin-top: 20vh;
+}
+
+.company-name {
+  float: left;
+}
+
+.date {
+  float: right;
+}
